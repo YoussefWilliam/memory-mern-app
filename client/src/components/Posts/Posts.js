@@ -4,6 +4,7 @@ import Post from "./Post/Post";
 import useStyles from "./styles";
 
 const Posts = () => {
+  // eslint-disable-next-line
   const classes = useStyles();
   const storedPosts = useSelector((globalState) => globalState.postsReducers);
   console.log(
